@@ -1,19 +1,7 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
+import LoginPage from "./components/LoginPage";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>It works</Text>
-    </View>
-  );
+  return <LoginPage />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});
