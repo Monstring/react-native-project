@@ -18,7 +18,7 @@ export default class SignupPage extends Component {
     return (
       <View style={{ paddingTop: 50 }}>
         <TextInput placeholder="Username" onChangeText={this.StoreUsername} />
-        <TextInput placeholder="Password" onChangeText={this.StorePassword} />
+        <TextInput placeholder="Password" onChangeText={this.StorePassword} secureTextEntry={true} />
         <TextInput placeholder="Confirm password" />
         <Button
           style={{ paddingTop: 10 }}
