@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, Text, TextInput, Button } from "react-native";
+import { View, CheckBox, TextInput, Button } from "react-native";
 
 export default class SignupPage extends Component {
   state = {

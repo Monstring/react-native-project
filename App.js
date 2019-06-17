@@ -4,5 +4,5 @@ import LoginPage from "./components/LoginPage";
 import SignupPage from "./components/SignupPage";
 
 export default function App() {
-  return <SignupPage />;
+  return <LoginPage />;
 }
