@@ -5,5 +5,5 @@ import SignupPage from "./components/SignupPage";
 import Post from "./components/Post";
 
 export default function App() {
-  return <Post></Post>;
+  return <LoginPage />;
 }
